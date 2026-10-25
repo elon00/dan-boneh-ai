@@ -1,0 +1,51 @@
+{
+  "name": "dan-boneh-ai-mcp",
+  "version": "1.0.0",
+  "description": "Dan Boneh AI Model Context Protocol Server for Autonomous Applied Cryptography, Pairing-Based Encryption, Post-Quantum Blockchain Security & Adversarial ML Defense Protocol",
+  "tools": [
+    {
+      "name": "audit_pairing_cryptographic_strength",
+      "description": "Analyze bilinear pairing group parameters and identity-based encryption schemes for discrete log and collision resistance",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "curve_type": {
+            "type": "string"
+          },
+          "embedding_degree": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "curve_type"
+        ]
+      }
+    },
+    {
+      "name": "disburse_applied_cryptography_grant",
+      "description": "Trigger automated micro-escrow releases for post-quantum zk-SNARK research, pairing library audits, and adversarial ML defenses",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
